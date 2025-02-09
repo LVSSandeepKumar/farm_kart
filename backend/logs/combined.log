@@ -91,3 +91,26 @@
 {"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:42:40"}
 {"filename":"unknown","level":"info","message":"decoded token: {\"user\":{\"id\":5},\"iat\":1739085199,\"exp\":1740381199}","service":"user-service","timestamp":"2025-02-09 12:43:24"}
 {"filename":"unknown","level":"error","message":"No master products found","service":"user-service","timestamp":"2025-02-09 12:43:24"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:54:46"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 14:36:24"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:25:00"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:27:04"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:27:09"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:29:08"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:29:10"}
+{"filename":"unknown","level":"error","message":"No brands found","service":"user-service","timestamp":"2025-02-09 18:29:12"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:31:24"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:33:18"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:36:36"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:36:57"}
+{"filename":"unknown","level":"error","message":"Brand with ID 5 not found","service":"user-service","timestamp":"2025-02-09 18:37:24"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:39:10"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:40:38"}
+{"filename":"unknown","level":"error","message":"Brand name is required","service":"user-service","timestamp":"2025-02-09 18:40:40"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:40:59"}
+{"filename":"unknown","level":"error","message":"No changes detected","service":"user-service","timestamp":"2025-02-09 18:41:31"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:42:53"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:46:12"}
+{"filename":"unknown","level":"error","message":"Brand with name Croppy updated already exists","service":"user-service","timestamp":"2025-02-09 18:46:34"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 18:47:22"}
+{"filename":"unknown","level":"error","message":"Brand with name Croppy already exists","service":"user-service","timestamp":"2025-02-09 18:47:32"}

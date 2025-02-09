@@ -14,11 +14,16 @@ const checkAuthRoute = async (req, res, next) => {
     if (!decoded) {
       return res.status(400).json({ error: "Unauthorized: Invalid token provided" });
     }
+    // ✅ FIXED: Ensure correct token structure
+    if (!decoded.user || !decoded.user.id) {
+      logger.error("Invalid token format: Missing user ID");
+      return res.status(400).json({ error: "Invalid token format" });
+    }
     //Check for the user with the userId for which the token is assigned
     const user = await prisma.user.findUnique(
       {
         where: {
-          id: decoded.userId,
+          id: decoded.user.id,
         }
       }
     )

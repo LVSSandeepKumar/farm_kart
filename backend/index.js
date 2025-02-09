@@ -5,8 +5,10 @@ import cookieParser from 'cookie-parser';
 
 import logger from './utils/logger.js';
 import checkAdminRoute from './middleware/checkAdminRoute.js';
+import checkAuthRoute from './middleware/checkAuthRoute.js';
 
 import userRoutes from './routes/user_route.js';
+import brandRoutes from './routes/brand_route.js';
 import masterProductRoutes from './routes/masterProduct_route.js';
 
 const app = express();
@@ -21,6 +23,7 @@ app.use(cookieParser());
 
 
 app.use("/api/users", userRoutes);
+app.use("/api/brands", checkAuthRoute, brandRoutes);
 app.use("/api/master_products",checkAdminRoute, masterProductRoutes);
 
 // Test route

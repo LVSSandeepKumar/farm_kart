@@ -41,7 +41,7 @@ model Address {
 
 model Brand {
   id            Int             @id @default(autoincrement())
-  name          String
+  name          String          @unique
   masterProduct MasterProduct[]
 }
 

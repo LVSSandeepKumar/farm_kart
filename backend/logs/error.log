@@ -21,3 +21,9 @@
 {"filename":"unknown","level":"error","message":"Unauthorized: Admin access required","service":"user-service","timestamp":"2025-02-09 12:42:04"}
 {"filename":"unknown","level":"error","message":"Unauthorized: Admin access required","service":"user-service","timestamp":"2025-02-09 12:42:06"}
 {"filename":"unknown","level":"error","message":"No master products found","service":"user-service","timestamp":"2025-02-09 12:43:24"}
+{"filename":"unknown","level":"error","message":"No brands found","service":"user-service","timestamp":"2025-02-09 18:29:12"}
+{"filename":"unknown","level":"error","message":"Brand with ID 5 not found","service":"user-service","timestamp":"2025-02-09 18:37:24"}
+{"filename":"unknown","level":"error","message":"Brand name is required","service":"user-service","timestamp":"2025-02-09 18:40:40"}
+{"filename":"unknown","level":"error","message":"No changes detected","service":"user-service","timestamp":"2025-02-09 18:41:31"}
+{"filename":"unknown","level":"error","message":"Brand with name Croppy updated already exists","service":"user-service","timestamp":"2025-02-09 18:46:34"}
+{"filename":"unknown","level":"error","message":"Brand with name Croppy already exists","service":"user-service","timestamp":"2025-02-09 18:47:32"}
