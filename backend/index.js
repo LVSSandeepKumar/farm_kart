@@ -1,10 +1,13 @@
 import express from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
+import cookieParser from 'cookie-parser';
 
 import logger from './utils/logger.js';
+import checkAdminRoute from './middleware/checkAdminRoute.js';
+
 import userRoutes from './routes/user_route.js';
-import cookieParser from 'cookie-parser';
+import masterProductRoutes from './routes/masterProduct_route.js';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -18,6 +21,7 @@ app.use(cookieParser());
 
 
 app.use("/api/users", userRoutes);
+app.use("/api/master_products",checkAdminRoute, masterProductRoutes);
 
 // Test route
 app.get('/', (req, res) => {

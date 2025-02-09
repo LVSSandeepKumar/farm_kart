@@ -38,3 +38,56 @@
 {"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-08 17:31:22"}
 {"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-08 17:32:39"}
 {"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-08 17:35:20"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 11:55:36"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 11:55:51"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 11:56:52"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 11:58:36"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:02:21"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:02:55"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:03:55"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:04:42"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:07:55"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:07:59"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:08:35"}
+{"filename":"unknown","level":"info","message":"decoded token: {\"iat\":1739082898,\"exp\":1740378898}","service":"user-service","timestamp":"2025-02-09 12:08:48"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:09:17"}
+{"filename":"unknown","level":"info","message":"decoded token: {\"iat\":1739082898,\"exp\":1740378898}","service":"user-service","timestamp":"2025-02-09 12:09:24"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:17:33"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:18:13"}
+{"filename":"unknown","level":"info","message":"decoded token: {\"iat\":1739082898,\"exp\":1740378898}","service":"user-service","timestamp":"2025-02-09 12:19:05"}
+{"filename":"unknown","level":"error","message":"Invalid token format: Missing user ID","service":"user-service","timestamp":"2025-02-09 12:19:05"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:33:39"}
+{"filename":"unknown","level":"info","message":"decoded token: {\"user\":{},\"iat\":1739084651,\"exp\":1740380651}","service":"user-service","timestamp":"2025-02-09 12:34:15"}
+{"filename":"unknown","level":"error","message":"Invalid token format: Missing user ID","service":"user-service","timestamp":"2025-02-09 12:34:15"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:34:49"}
+{"filename":"unknown","level":"info","message":"decoded token: {\"user\":{\"id\":4},\"iat\":1739084705,\"exp\":1740380705}","service":"user-service","timestamp":"2025-02-09 12:35:09"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:37:44"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:37:47"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:38:32"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:38:39"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:38:42"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:40:10"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:40:16"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:40:34"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:40:38"}
+{"filename":"unknown","level":"info","message":"decoded token: {\"user\":{\"id\":4},\"iat\":1739084705,\"exp\":1740380705}","service":"user-service","timestamp":"2025-02-09 12:40:42"}
+{"filename":"unknown","level":"info","message":"Safe User: {\"id\":4,\"role\":\"user\",\"name\":\"Sandeep\",\"email\":\"sandeep@email.com\",\"phone\":\"123456789\",\"userName\":null,\"userStatus\":null}","service":"user-service","timestamp":"2025-02-09 12:40:42"}
+{"filename":"unknown","level":"error","message":"Unauthorized: Admin access required","service":"user-service","timestamp":"2025-02-09 12:40:42"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:40:52"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:41:57"}
+{"filename":"unknown","level":"info","message":"decoded token: {\"user\":{\"id\":4},\"iat\":1739084705,\"exp\":1740380705}","service":"user-service","timestamp":"2025-02-09 12:42:01"}
+{"filename":"unknown","level":"info","message":"Safe User: {\"id\":4,\"role\":\"user\",\"name\":\"Sandeep\",\"email\":\"sandeep@email.com\",\"phone\":\"123456789\",\"userName\":null,\"userStatus\":null}","service":"user-service","timestamp":"2025-02-09 12:42:01"}
+{"filename":"unknown","level":"error","message":"Unauthorized: Admin access required","service":"user-service","timestamp":"2025-02-09 12:42:01"}
+{"filename":"unknown","level":"info","message":"decoded token: {\"user\":{\"id\":4},\"iat\":1739084705,\"exp\":1740380705}","service":"user-service","timestamp":"2025-02-09 12:42:02"}
+{"filename":"unknown","level":"info","message":"Safe User: {\"id\":4,\"role\":\"user\",\"name\":\"Sandeep\",\"email\":\"sandeep@email.com\",\"phone\":\"123456789\",\"userName\":null,\"userStatus\":null}","service":"user-service","timestamp":"2025-02-09 12:42:02"}
+{"filename":"unknown","level":"error","message":"Unauthorized: Admin access required","service":"user-service","timestamp":"2025-02-09 12:42:02"}
+{"filename":"unknown","level":"info","message":"decoded token: {\"user\":{\"id\":4},\"iat\":1739084705,\"exp\":1740380705}","service":"user-service","timestamp":"2025-02-09 12:42:04"}
+{"filename":"unknown","level":"info","message":"Safe User: {\"id\":4,\"role\":\"user\",\"name\":\"Sandeep\",\"email\":\"sandeep@email.com\",\"phone\":\"123456789\",\"userName\":null,\"userStatus\":null}","service":"user-service","timestamp":"2025-02-09 12:42:04"}
+{"filename":"unknown","level":"error","message":"Unauthorized: Admin access required","service":"user-service","timestamp":"2025-02-09 12:42:04"}
+{"filename":"unknown","level":"info","message":"decoded token: {\"user\":{\"id\":4},\"iat\":1739084705,\"exp\":1740380705}","service":"user-service","timestamp":"2025-02-09 12:42:06"}
+{"filename":"unknown","level":"info","message":"Safe User: {\"id\":4,\"role\":\"user\",\"name\":\"Sandeep\",\"email\":\"sandeep@email.com\",\"phone\":\"123456789\",\"userName\":null,\"userStatus\":null}","service":"user-service","timestamp":"2025-02-09 12:42:06"}
+{"filename":"unknown","level":"error","message":"Unauthorized: Admin access required","service":"user-service","timestamp":"2025-02-09 12:42:06"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:42:28"}
+{"filename":"unknown","level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-02-09 12:42:40"}
+{"filename":"unknown","level":"info","message":"decoded token: {\"user\":{\"id\":5},\"iat\":1739085199,\"exp\":1740381199}","service":"user-service","timestamp":"2025-02-09 12:43:24"}
+{"filename":"unknown","level":"error","message":"No master products found","service":"user-service","timestamp":"2025-02-09 12:43:24"}

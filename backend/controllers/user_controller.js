@@ -53,7 +53,7 @@ export const signup = async (req, res) => {
       },
     });
 
-    generateTokenAndSetCookie(user._id, res);
+    generateTokenAndSetCookie(user.id, res);
 
     res.status(201).json({ message: "User created successfully", user });
   } catch (error) {
@@ -86,7 +86,7 @@ export const login = async (req, res) => {
             return res.status(401).json({ error: "Invalid credentials" });
         }
 
-        generateTokenAndSetCookie(user._id, res);
+        generateTokenAndSetCookie(user.id, res);
 
         res.status(200).json({ message: "Login successful", user });
     } catch (error) {
